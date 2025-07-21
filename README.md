@@ -1,5 +1,15 @@
 # PipelinedCPU
 an embedded system cpu pipeline for a created instruction set made in Verilog
+- `HudsonMODULES.txt`: Contains all core Verilog modules for the pipelined CPU, including:
+  - ALU, control unit, register file, data memory, instruction memory
+  - Pipeline registers (`IF/ID`, `ID/EX`, `EX/WB`)
+  - Multiplexers, immediate generator, and PC logic
+
+- `HudsonTB.txt`: The top-level testbench that integrates all modules to simulate the CPU. Handles:
+  - Clock/reset logic
+  - Branch/jump control muxes
+  - Instruction flow through IF, ID, EX, MEM, WB stages
+  - Final waveform verification for instruction execution
 
 <img width="830" height="583" alt="Screenshot 2025-07-21 at 10 26 37 AM" src="https://github.com/user-attachments/assets/d9702dc3-0c22-4008-8bf1-d1fc6beaa60b" />
 
