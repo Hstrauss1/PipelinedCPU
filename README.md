@@ -12,6 +12,7 @@ an embedded system cpu pipeline for a created instruction set made in Verilog
   - Final waveform verification for instruction execution
 
 <img width="830" height="583" alt="Screenshot 2025-07-21 at 10 26 37 AM" src="https://github.com/user-attachments/assets/d9702dc3-0c22-4008-8bf1-d1fc6beaa60b" />
+<img width="727" height="640" alt="Screenshot 2025-07-21 at 10 38 12 AM" src="https://github.com/user-attachments/assets/08908a17-0cdd-4327-8a3b-a1c546cae22a" />
 
 This project implements a 32-bit pipelined CPU in Verilog based on the SCU ISA. The CPU supports 12 instructions across a standard 5-stage pipeline: IF, ID, EX, MEM, WB. It was designed to execute assembly programs including a MIN function and vector addition.
 
